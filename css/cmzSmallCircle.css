@@ -1,0 +1,63 @@
+html{
+    font-size:62.5%;
+}
+.head-publish{
+    position:absolute;
+    top:50%;
+    right:3.5%;
+    margin-top:-8px;
+    display:block;
+    width:18px;
+    height:17px;
+    background:url("../img/cmzSmlsearch.png") 0 0 no-repeat;
+    background-size:100% 100%;
+}
+.userMain{
+    margin:0 auto;
+    width:96%;
+    padding-top:16px;
+    padding-bottom:13px;
+    overflow:hidden;
+    border-bottom:1px solid #dedede;
+}
+.headPic{
+    display:block;
+    float:left;
+    width:16%;
+}
+.headPic img{
+    display:block;
+    width:73.5%;
+    height:auto;
+    margin:0 auto;
+}
+.userCon{
+    float:left;
+    width:62%;
+}
+.userCona{
+    width:100%;
+    display:block;
+}
+.userConTit{
+    color:#333333;
+    font-size:1.2rem;
+}
+.userConOther{
+    overflow:hidden;
+    width:100%;
+}
+.userConOther h3,.userConOther h4{
+    float:left;
+    color:#848484;
+    font-size:1rem;
+}
+.userConOther h3{
+    margin-right:16%;
+}
+.userConOther h3 img,.userConOther h4 img{
+    width:9px;
+    height:auto;
+    margin-right:6px;
+}
+

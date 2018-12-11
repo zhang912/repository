@@ -1,0 +1,50 @@
+.ui-container{
+	padding-top: 29px;
+	padding-bottom: 24px;
+}
+.ui-container a{
+	display: block;
+	width: 91px;
+	padding-top: 100px;
+	background: url(../img/tx-nv.png) 0 0 no-repeat;
+	background-size: 91px 91px;
+	font-size: 15px;
+	line-height: 15px;
+	color: #fff;
+}
+.link{
+	margin-top: 18px;
+}
+.link .demo-block div{
+    background-color: #fff;
+    padding-left: 24px;
+}
+.link a{
+    display: block;
+    width: 80%;
+    line-height: 50px;
+    font-size: 15px;
+    color: #333;
+    padding-left: 45px;
+   	border-bottom: 1px solid #E8E8E8;
+}
+.link .ui-arrowlink:nth-child(1) a{
+    background: url(../img/wdsc.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(2) a{
+    background: url(../img/wdxx.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(3) a{
+    background: url(../img/wdqz.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(4) a{
+    background: url(../img/wdxc.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(5) a{
+    background: url(../img/sz.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}

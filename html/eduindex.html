@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<link rel="stylesheet" href="../css/frozen.css">
+	<link rel="stylesheet" href="../css/eduindex.css">
+	<script src="../js/zepto.min.js"></script>
+    <script src="../js/frozen.js"></script>
+    <style>
+	.ui-slider{padding-top: 52.2%;}
+	.ui-slider-indicators{-webkit-box-pack:center;}
+	.ui-grid-halve-img{padding-top: 84.4%;}
+	.page{overflow: scroll;}
+	.slide-bar{overflow: scroll;}
+    </style>
+</head>
+<body>
+	<header class="ui-header ui-header-positive ui-border-b">
+	    <i class="head-icon1"></i>
+	    <h1>教育培训</h1>
+	    <a href="edulist.html" class="head-text"></a>
+	</header>
+	<div class="page">
+		<div>
+			<section id="slider">
+		   		<div class="demo-item">
+			        <div class="demo-block">
+			            <div class="ui-slider">
+			                <ul class="ui-slider-content" style="width: 600%; transition-property: transform; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(0px, 0px) translateZ(0px);">
+			                    <li class="current"><span style="background-image:url(../images/edupic1.jpg)"></span></li>
+			                    <li class=""><span style="background-image:url(../images/edupic2.jpg)"></span></li>
+			                    <li class=""><span style="background-image:url(../images/edupic1.jpg)"></span></li>
+			                </ul>
+			        	</div>
+			   		</div>
+			   	</div>    
+			</section>
+			<div class="demo-item">
+		        <p class="demo-desc">热门课程</p>
+		        <div class="demo-block">
+		            <ul class="ui-grid-halve">
+		                <li>
+		                	<div>
+			                   	<img src="../images/hotclass1.jpg" alt="">
+			                    <h3>四大高薪行业晋级班</h3>
+			                    <p>
+			                       	<span>¥299</span>
+			                        <span>共计5课时</span>
+			                    </p>
+			                </div>
+		                </li>
+		                <li>
+		                	<div>
+			                    <img src="../images/hotclasss2.jpg" alt="">
+			                    <h3>四大高薪行业晋级班</h3>
+			                    <p>
+			                       	<span>¥299</span>
+			                        <span>共计5课时</span>
+			                    </p>
+			                </div>
+		                </li>
+		                <li>
+		               		<div>
+			                    <img src="../images/hotclasss3.jpg" alt="">
+			                    <h3>四大高薪行业晋级班</h3>
+			                    <p>
+			                       	<span>¥299</span>
+			                        <span>共计5课时</span>
+			                    </p>
+		                    </div>
+		                </li>
+		                <li>
+			                <div>
+			                    <img src="../images/hotclasss4.jpg" alt="">
+			                    <h3>四大高薪行业晋级班</h3>
+			                    <p>
+			                       	<span>¥299</span>
+			                        <span>共计5课时</span>
+			                    </p>
+			                </div>
+		                </li>
+		            </ul>
+		        </div>
+	    	</div>
+	    </div>
+	</div>
+	<section class="slide-bar">
+	<div>
+	    <header class="ui-header ui-header-positive ui-border-b">
+	        <i class="ui-icon-return" onclick="history.back()"></i><a class="head-icon2" href="personal.html"></a>
+	    </header>
+	    <section class="ui-left sidetx">
+	        <img src="../img/side-bg.jpg" alt="">
+	        <div>
+	            <a href="login.html">请登录</a>
+	        </div>
+	    </section>
+	    <section class="link">
+	        <div class="demo-block">
+	            <div class="ui-arrowlink">
+	                <a href="newsindex.html">校园新闻</a>
+	            </div>
+	            <div class="ui-arrowlink">
+	                <a href="javascript:void(0)">教育培训</a>
+	            </div>
+	            <div class="ui-arrowlink">
+	                <a href="cmzSmallCircle.html">微圈子</a>
+	            </div>
+	            <div class="ui-arrowlink">
+	                <a href="cmzMarkitHome.html">跳蚤市场</a>
+	            </div>
+	            <div class="ui-arrowlink">
+	                <a href="parttime.html">兼职吧</a>
+	            </div>
+	            <div class="ui-arrowlink">
+	                <a href="personal.html">个人中心</a>
+	            </div>
+	        </div>
+	    </section>
+	    </div>
+	</section>
+<script class="demo-script">
+        (function (){
+            var slider = new fz.Scroll('.ui-slider', {
+                role: 'slider',
+                indicator: true,
+                autoplay: true,
+                interval: 3000
+            });
+        })();
+        $(".page").height($(window).height()-45);
+        $(".head-icon1").tap(function(e){
+            $("body").toggleClass("active");
+            if ($("body").hasClass("active")) {
+                $(window).swipeLeft(function(){
+                   e.preventDefault(); 
+                })
+            };
+        })
+        $(".ui-icon-return").tap(function(){
+            $("body").toggleClass("active");
+        })
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+html{
+    font-size:62.5%;
+}
+.head-publish{
+    position:absolute;
+    top:50%;
+    right:3.5%;
+    margin-top:-8px;
+    display:block;
+    width:18px;
+    height:17px;
+    background:url("../img/cmzSmlsearch.png") 0 0 no-repeat;
+    background-size:100% 100%;
+}
+.userChatL{
+    width:93%;
+    margin:23px auto 0;
+    position:relative;
+    overflow:hidden;
+}
+.userPicL{
+    width:35px;
+    position:absolute;
+    left:0;
+    top:50%;
+    margin-top:-18px;
+}
+.userPicL a{
+    width:100%;
+}
+.userPicL a img{
+    width:100%;
+    height:auto;
+}
+.userChatConL{
+    width:69.5%;
+    margin-left:16.2%;
+    float:left;
+    position:relative;
+    border:1px solid #ddd;
+    border-radius:2px;
+    font-size:1.2rem;
+    color:#333;
+    background:#f7f7f5;
+    padding:9px 13px;
+    box-sizing:border-box;
+}
+.userChatConL img{
+    width:8px;
+    height:auto;
+    position:absolute;
+    bottom:6px;
+    left:-8px;
+}
+.userChatR{
+    width:93%;
+    margin:23px auto 0;
+    position:relative;
+    overflow:hidden;
+}
+.userPicR{
+    position:absolute;
+    right:0;
+    top:50%;
+    width:35px;
+    margin-top:-18px;
+}
+.userPicR a{
+    width:100%;
+}
+.userPicR a img{
+    width:100%;
+    height:auto;
+}
+.userChatConR{
+    width:69.5%;
+    margin-right:16.2%;
+    float:right;
+    position:relative;
+    border:1px solid #ddd;
+    border-radius:2px;
+    font-size:1.2rem;
+    color:#333;
+    background:#f7f7f5;
+    padding:9px 13px;
+    box-sizing:border-box;
+}
+.userChatConR img{
+    width:8px;
+    height:auto;
+    position:absolute;
+    bottom:6px;
+    right:-8px;
+}
+.footerSpace{
+    height:58px;
+    background:#fff;
+}
+.footerChat{
+    position:fixed;
+    left:0;
+    bottom:0;
+    width:100%;
+    height:45px;
+    background:#f5f5f5;
+    box-sizing:border-box;
+    padding-top:12px;
+    overflow:hidden;
+}
+.chatCon{
+    position:relative;
+    float:left;
+    width:61.2%;
+    height:22px;
+    border:1px solid #dadada;
+    border-radius:12px;
+    margin-left:2.5%;
+    margin-right:5%;
+}
+.chatCon div{
+    position:absolute;
+    top:50%;
+    left:7%;
+    width:17px;
+    margin-top:-9px;
+}
+.chatCon div img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.chatIpt{
+    width:100%;
+    height:22px;
+    border-radius:11px;
+    border:none;
+    box-sizing:border-box;
+    padding-left:20%;
+    font-size:.8rem;
+}
+.chatFace,.chatMore{
+    float:left;
+    width:28px;
+}
+.chatMore{
+    margin-left:3.5%;
+}
+.chatFace img,.chatMore img{
+    display:block;
+    width:100%;
+    height:auto;
+}

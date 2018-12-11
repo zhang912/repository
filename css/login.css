@@ -1,0 +1,111 @@
+.tx{
+	width: 91px;
+	height: 91px;
+	padding-top: 10%;
+}
+.tx img{
+	width: 100%;
+	height: 100%;
+}
+form{
+	padding-top: 26.4%;
+}
+.email{
+	margin-bottom: 3px;
+}
+.email input{
+	box-sizing:border-box;
+	display: block;
+	width: 72%;
+	border: 1px solid #DEDEDE;
+	border-radius: 2px;
+	line-height: 40px;
+	color: #D1D0D0;
+	font-size: 15px;
+	padding-left: 46px;
+	background: url(../img/email.jpg) 14px 13px no-repeat;
+	background-size: 21px 16px;
+}
+.password {
+	margin-bottom: 25px;
+}
+.password input{
+	box-sizing:border-box;
+	display: block;
+	width: 72%;
+	border: 1px solid #DEDEDE;
+	border-radius: 2px;
+	line-height: 40px;
+	color: #D1D0D0;
+	font-size: 15px;
+	padding-left: 46px;
+	background: url(../img/password.jpg) 16px 8px no-repeat;
+	background-size: 18px 21px;
+}
+.submit input{
+	display: block;
+	box-sizing:border-box;
+	width: 72%;
+	padding: 0 23px;
+	border-radius: 2px;
+	line-height: 40px;
+	text-align: center;
+	background-color: #4C93EB;
+	border: none;
+	color: #fff;
+	font-size: 20px;
+	font-family: Arial;
+}
+.sign{
+	width: 69%;
+	margin-top: 18px;
+	overflow: hidden;
+}
+.sign a{
+	display: inline-block;
+	color: #ABABAB;
+	font-size: 12px;
+}
+.signup{
+	float: left;
+}
+.forget{
+	float: right;
+}
+.yjdl{
+	margin-top: 7%;
+}
+.yjdl div{
+	width: 72%;
+	font-size: 12px;
+	line-height: 12px;
+	color: #ABABAB;
+	background: url(../img/yjdl.jpg) 0 6px no-repeat;
+	background-size: 100% 1px;
+	text-align: center;
+}
+.ui-tiled{
+	margin-top: 25px;
+}
+.ui-tiled div{
+	font-size: 12px;
+	color: #666;
+	padding-top: 6px;
+}
+.ui-tiled i{
+	display: block;
+	width: 26px;
+	height: 26px;
+}
+.ui-tiled li:nth-child(1) i{
+	background: url(../img/wx.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.ui-tiled li:nth-child(2) i{
+	background: url(../img/wb.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+.ui-tiled li:nth-child(3) i{
+	background: url(../img/qq.jpg) 0 0 no-repeat;
+	background-size: 100% 100%;
+}

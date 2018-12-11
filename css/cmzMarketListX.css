@@ -1,0 +1,105 @@
+html{
+    font-size:62.5%;
+}
+.head-publish{
+    position:absolute;
+    top:50%;
+    right:3.5%;
+    margin-top:-8px;
+    display:block;
+    width:18px;
+    height:17px;
+    background:url("../img/cmz_head-publish.png") 0 0 no-repeat;
+    background-size:100% 100%;
+}
+.markitSearch{
+    width:100%;
+    padding:9px 0;
+    background:#f6f6f6;
+    overflow:hidden;
+}
+.searchIpt{
+    float:left;
+    width:70%;
+    height:27px;
+    border:1px solid #e1e1e1;
+    box-sizing:border-box;
+    padding-left:3%;
+    margin:0 1.5% 0 2%;
+}
+.searchBtn{
+    float:left;
+    width:22%;
+    height:26px;
+    color:#fff;
+    background:#4c93eb;
+    line-height:26px;
+    border-radius:2px;
+}
+.searchBtn img{
+    float:left;
+    display:block;
+    width:19%;
+    height:auto;
+    margin:7px 11% 0 14%;
+}
+.searchBtn span{
+    float:left;
+    display:block;
+    font-size:1.2rem;
+}
+.markitSchProduct{
+    width:97%;
+    padding:7px 0;
+    background:#fff;
+    overflow:hidden;
+    margin:0 auto;
+    border-bottom:1px solid #dedede;
+}
+.markitSchPrdctImg{
+    float:left;
+    display:block;
+    width:27%;
+    margin:0 3% 0 1%;
+}
+.markitSchPrdctDetial{
+    position:relative;
+    float:left;
+    display:block;
+    width:69%;
+    height:59%;
+    line-height:90%;
+}
+.markitSchPrdctDetial h2{
+    font-size:1.2rem;
+    color:#333333;
+}
+.markitSchPrdctDetial h3{
+    font-size:0.8rem;
+    width:83.7%;
+    overflow:hidden;
+    color:#9a9a9a;
+}
+.markitSchPrdctDetial h4{
+    font-size:0.8rem;
+    color:#9a9a9a;
+}
+.markitSchPrdctDetial h5{
+    position:absolute;
+    bottom:0;
+    right:2.8%;
+    font-size:0.8rem;
+    color:#9a9a9a;
+    height:9px;
+    line-height:9px;
+    padding-left:12px;
+    background:url(../img/cmzSearchClick.png) 0 0 no-repeat;
+    background-size:9px 9px;
+}
+.markitSchPrdctDetial p{
+    position:absolute;
+    top:0;
+    right:2.8%;
+    font-size:1rem;
+    color:#ff6600;
+}

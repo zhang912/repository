@@ -1,0 +1,109 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+.page{
+    padding: 7px 7px 0 6px;
+    border-top: 45px solid transparent;
+}
+.message{
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+}
+.message img{
+    display: block;
+    width: 98%;
+    height: auto;
+    margin: 4px auto 0;
+}
+.message .title{
+    width: 98%;
+    margin: 3px auto 0;
+    font-size: 1.2rem;
+    height: 20px;
+    position: relative;
+}
+.message .title .titlein{
+    line-height: 20px;
+    color: #333;
+}
+.message .title .xxpress{
+    position: absolute;
+    right: 3px;
+    top: 0;
+    height: 20px;
+    font-size: 1rem;
+    line-height: 20px;
+    color: #BABABA;
+}
+.message .title .xxpress span{
+    color: #FF6600;
+}
+.messageIn{
+    width: 98%;
+    margin: 0 auto;
+    line-height: 16px;
+    font-size: 0.8rem;
+    color: #9A9A9A;
+    padding-bottom: 3px;
+}
+.conecte{
+    width: 100%;
+    padding: 6px 0 6px 5px;
+}
+.conecte p{
+    width: 95%;
+    padding-left: 4%;
+    height: 16px;
+    font-size: 0.8rem;
+    color: #9a9a9a;
+    line-height: 16px;
+    background: url(../images/time.jpg) 0 2px no-repeat;
+    background-size: 9px 10px;
+}
+.conecte p:nth-child(2){
+    background: url(../images/facetime2.png) 0 2px no-repeat;
+    background-size: 9px 10px;
+}
+.conecte p:nth-child(3){
+    background: url(../images/faceadd2.png) 0 2px no-repeat;
+    background-size: 9px 10px;
+}
+.office{
+    width: 100%;
+    background: #fff;
+    margin-top: 9px;
+    padding-bottom: 37px;
+}
+.describe{
+    width: 100%;
+}
+.describe h3{
+    width: 97.5%;
+    padding-left: 2.5%;
+    height: 23px;
+    margin-top: 4px;
+    line-height: 23px;
+    font-size: 0.9rem;
+    color: #333;
+    border-bottom: 1px solid #DEDEDE;
+}
+.describeIn{
+    width: 100%;
+    overflow: hidden;
+}
+.describeIn img{
+    display: block;
+    width: 72%;
+    height: auto;
+    margin: 5px 0 6px 9px;
+}
+.describeIn p{
+    width: 89%;
+    margin-left: 3%;
+    line-height: 15px;
+    font-size: 0.8rem;
+    color: #9a9a9a;
+}

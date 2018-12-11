@@ -1,0 +1,204 @@
+html{
+    font-size:62.5%;
+}
+.head-publish{
+    position:absolute;
+    top:50%;
+    right:3.5%;
+    margin-top:-8px;
+    display:block;
+    width:18px;
+    height:17px;
+    background:url("../img/cmzMarkitDetial.png") 0 0 no-repeat;
+    background-size:100% 100%;
+}
+.mktDetial{
+    width:96%;
+    margin:7px auto 0;
+    padding:3px 0 8px;
+    background:#fff;
+    border-bottom:1px solid #dedede;
+    margin-bottom:4px;
+}
+.mktDetialImg{
+    display:block;
+    width:98%;
+    height:auto;
+    margin:0 auto;
+}
+.mktDetialImg img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+.mktDetialName,.mktDetialPrice{
+    overflow:hidden;
+}
+.mktDetial h2,.mktDetial h4,.mktDetial h5{
+    float:left;
+    font-size:1.2rem;
+}
+.mktDetial h2{
+    padding-left:2px;
+    margin-top:5px;
+    color:#333333;
+}
+.mktDetial h3{
+    float:right;
+    font-size:1rem;
+    margin-top:7px;
+    margin-right:5px;
+    color:#bababa;
+}
+.mktDetialPrice{
+    margin-top:6px;
+}
+.mktDetial h4{
+    margin-left:3px;
+    color:#ff6600;
+}
+.mktDetial h5{
+    color:#bababa;
+    margin-left:15px;
+    text-decoration:line-through;
+}
+.mktIntroduce{
+    width:100%;
+    margin-bottom:4px;
+}
+.mktIntroduceTit{
+    width:96%;
+    height:25px;
+    line-height:25px;
+    font-size:9px;
+    color:#333333;
+    box-sizing:border-box;
+    margin:0 auto;
+    padding-left:3%;
+    background:#fff;
+    border-bottom:1px solid #dedede;
+}
+.mktIntroduceCon{
+    position:relative;
+    width:96%;
+    box-sizing:border-box;
+    margin:0 auto;
+    padding-top:7px;
+    padding-bottom:12px;
+    background:#fff;
+    overflow:hidden;
+}
+.sellUser{
+    width:11.7%;
+    float:left;
+}
+.sellUser img{
+    display:block;
+    width:62.5%;
+    height:auto;
+    border-radius:50%;
+    margin:0 auto;
+}
+.sellUserPublish{
+    position:relative;
+    float:left;
+    width:85%;
+}
+.sellUserPublish h2{
+    font-size:1rem;
+    color:#525252;
+    font-weight:bold;
+}
+.sellUserPublish h2 a{
+    color:inherit;
+}
+.sellUserPublish h3,.sellUserPublish h4{
+    color:#666666;
+    font-size: .8rem;
+}
+.sellUserPublish h4{
+    display:-webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-indent:2em;
+    overflow:hidden;
+}
+.sellUserPublish span{
+    position:absolute;
+    top:0;
+    right:0;
+    font-size: .8rem;
+    color:#666666;
+}
+.mktItdc{
+    width:100%;
+    margin-bottom:6px;
+}
+.footerSpace{
+    height:31px;
+}
+.footer{
+    position:fixed;
+    left:0;
+    bottom:0;
+    box-sizing:border-box;
+    padding-top:4px;
+    width:100%;
+    height:31px;
+    border-top:#fdfdfd;
+    background:#f8f8f8;
+}
+.markitVoice,.markitAdd,.markitIpt,.markitSubmit{
+    float:left;
+}
+.markitVoice{
+    width:11px;
+    margin-left:3%;
+    margin-right:4%;
+}
+.markitVoice a{
+    width:100%;
+}
+.markitVoice img{
+    width:100%;
+    height:auto;
+}
+.markitAdd{
+    width:18px;
+}
+.markitAdd a{
+    width:100%;
+}
+.markitAdd img{
+    width:100%;
+    height:auto;
+}
+.markitIpt{
+    width:65.6%;
+    margin-left:2.3%;
+    margin-right:2.3%;
+    border:2px solid #e6e6e6;
+}
+.markitIpt input{
+    display:block;
+    width:100%;
+    height:18px;
+    border:none;
+}
+.markitSubmit{
+    width:34px;
+    border:1px solid #7c7c7c;
+    border-radius:2px;
+}
+.markitSubmit a{
+    display:block;
+    width:100%;
+}
+.markitSubmit img{
+    display:block;
+    width:100%;
+    height:auto;
+}
+
+

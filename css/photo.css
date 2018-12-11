@@ -1,0 +1,23 @@
+.ui-tiled{
+	margin-top: 5px;
+	padding: 0 4px;
+	margin-bottom: 10px;
+}
+.ui-tiled li{
+	padding: 1px;
+	border: 1px solid #DFDFDF;
+	-webkit-box-align: start;
+}
+.ui-tiled img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.ui-tiled li:nth-child(1){
+	margin-right: 7px;
+}
+.ui-tiled i{
+	font-size: 11px;
+	color: #333;
+	padding-left: 3px;
+}

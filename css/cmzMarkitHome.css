@@ -1,0 +1,98 @@
+.homeSearch{
+    width:64.7%;
+    height:29px;
+    background:#fff;
+    margin:7px auto;
+    border-radius:3px;
+}
+.homeSearch img{
+    float:left;
+    width:18px;
+    height:auto;
+    margin-left:5.3%;
+    margin-top:7px;
+    margin-right:1.7%;
+}
+.homeSearch input{
+    float:left;
+    width:83%;
+    height:29px;
+    border:none;
+}
+.head-text{
+    position: absolute;
+    right: 7px;
+    top:0;
+}
+.newUp{
+    width:97.8%;
+    margin:18px auto 0;
+    overflow:hidden;
+}
+.newUp div{
+    width:37.5%;
+    border:1px solid #dedede;
+    margin-top:10px;
+    height:0;
+}
+.newUp div:nth-child(1){
+    float:left;
+}
+.newUp div:nth-child(3){
+    float:right;
+}
+.newUp h2{
+    float:left;
+    margin-left:2.6%;
+    color:#9a9a9a;
+    font-size:15px;
+}
+.newMain{
+    width:97.3%;
+    margin:0 auto;
+}
+.newMain ul{
+    width:100%;
+    overflow:hidden;
+}
+.newMain ul li{
+    float:left;
+    width:48.8%;
+    border:1px solid #dedede;
+    box-sizing:border-box;
+    position: relative;
+    margin-top:9px;
+}
+.newMain ul li:nth-child(even){
+    margin-left:2.4%;
+}
+.newImg{
+    width:100%;
+    height:88px;
+    margin-bottom:4px;
+}
+.newMain ul li h2{
+    font-size:11px;
+    margin-left:2px;
+}
+.newMain ul li h2 a{
+    color:#333333;
+}
+.newMain ul li h3{
+    color:#f60;
+    font-size:10px;
+    margin-left:2px;
+}
+.newUser{
+    width:22px;
+    position:absolute;
+    right:3px;
+    top:92px;
+}
+.newUser a{
+    width:100%;
+}
+.newUser a img{
+    width:100%;
+    /*height:auto;*/
+}

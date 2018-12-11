@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+	<title>跳骚市场列表</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/frozen.css">
+    <link rel="stylesheet" href="../css/cmzMarketDetial.css">
+</head>
+<body>
+<!--头部部分-->
+<header class="ui-header ui-header-positive ui-border-b">
+    <i class="ui-icon-return" onclick="history.back()"></i>
+    <!--<i class="ui-icon-return" onclick="history.back()"></i>-->
+    <h1>详细</h1>
+    <!--<button class="ui-btn">回首页</button>-->
+    <a href="#" class="head-publish"></a>
+</header>
+<div class="ui-container">
+    <div class="mktDetial">
+        <a class="mktDetialImg" href="#">
+            <img src="../img/cmzMktshow.jpg" alt="">
+        </a>
+        <div class="mktDetialName">
+            <h2>手工艺品单车</h2>
+            <h3>浏览次数3251</h3>
+        </div>
+        <div class="mktDetialPrice">
+            <h4>￥200</h4>
+            <h5>￥350</h5>
+        </div>
+    </div>
+    <div class="mktIntroduce">
+        <div  class="mktIntroduceTit">详细信息</div>
+        <div class="mktIntroduceCon">
+            <div class="sellUser"><a href="cmzSmallCircleChat.html">
+                <img src="../img/sellUser.png" alt=""></a>
+            </div>
+            <div class="sellUserPublish">
+                <h2><a href="cmzSmallCircleChat.html">David wu</a></h2>
+                <h3>#2宿舍楼205</h3>
+                <h4>手工艺品单车手工艺品单车单除此之外我们也可以将自己的生活信息发
+                    布到“叽喳校园”上，将它作为一个平自己的生活信息单车手工
+                    艺品单车单除此之外我们也可以将</h4>
+                <h4>外观精美，可以当做小礼品送给好友，机不可失，失不再来，有意者
+                    请与我联系
+                </h4>
+                <span>2天前</span>
+            </div>
+        </div>
+    </div>
+    <div class="mktItdc">
+        <div  class="mktIntroduceTit">留言</div>
+        <div class="mktIntroduceCon">
+            <div class="sellUser">
+                <a href="cmzSmallCircleChat.html"><img src="../img/buyUser.png" alt=""></a>
+            </div>
+            <div class="sellUserPublish">
+                <h2><a href="cmzSmallCircleChat.html">娃娃脸wq</a></h2>
+                <h4>很精美，看起来好漂亮，真的是纯手工工制作的吗？真的
+                    好喜欢.......
+                </h4>
+                <span>1小时前</span>
+            </div>
+        </div>
+        <div class="mktIntroduceCon">
+            <div class="sellUser">
+                <a href="cmzSmallCircleChat.html"><img src="../img/buyUser.png" alt=""></a>
+            </div>
+            <div class="sellUserPublish">
+                <h2><a href="cmzSmallCircleChat.html">娃娃脸wq</a></h2>
+                <h4>手工艺品单车手工艺品单车单除此之外我们也可以将自己的生活信息
+                    发布到“叽喳校园”上，将它作为一个平.......
+                </h4>
+                <span>1小时前</span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footerSpace"></div>
+<div class="footer">
+    <div class="markitVoice"><a href="#"><img src="../img/cmzVoice.jpg" alt=""></a></div>
+    <div class="markitAdd"><a href="#"><img src="../img/cmzAdd.jpg" alt=""></a></div>
+    <div class="markitIpt"><input type="text"></div>
+    <div class="markitSubmit"><a href="###"><img src="../img/cmzSubmit.jpg" alt=""></a></div>
+</div>
+<script src="../js/zepto.min.js"></script>
+<script>
+
+    //    留言效果
+$(".markitSubmit").tap(function(){
+    if($(".markitIpt input").val()!=""){
+        $(".mktItdc").append('<div class="mktIntroduceCon"><div class="sellUser"><img src="../img/buyUser.png" alt=""></div><div class="sellUserPublish"><h2><a href="cmzSmallCircleChat.html">娃娃脸wq</a></h2><h4>'+$(".markitIpt input").val()+'</h4><span>1小时前</span></div></div>')
+    }else{
+        alert("请输入内容");
+    }
+})
+</script>
+</body>
+</html>

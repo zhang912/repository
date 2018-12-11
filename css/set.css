@@ -1,0 +1,60 @@
+.link{
+	border-top: 45px solid transparent;
+}
+.ui-container{
+	padding-top: 29px;
+	padding-bottom: 24px;
+}
+.ui-container a{
+	display: block;
+	width: 91px;
+	padding-top: 100px;
+	background: url(../img/tx-nv.png) 0 0 no-repeat;
+	background-size: 91px 91px;
+	font-size: 15px;
+	line-height: 15px;
+	color: #fff;
+}
+
+.link .demo-block div{
+    background-color: #fff;
+    padding-left: 24px;
+}
+.link a{
+    display: block;
+    width: 96%;
+    line-height: 50px;
+    font-size: 15px;
+    color: #666;
+   	border-bottom:1px solid #E8E8E8; 
+}
+.link .ui-arrowlink:nth-child(1) a{
+	padding-top: 8px;
+	line-height: 62px;
+    overflow: hidden;
+}
+.link .tx{
+	float: left;
+}
+.link .tximg{
+	width: 54px;
+	height: 50px;
+	float: right;
+	margin-right: 22px;
+}
+.ewm{
+	margin: 8px 0; 
+	
+}
+.ewm a{
+	overflow: hidden;
+}
+.ewm span{
+	float: left;
+}
+.ewm img{
+	float: right;
+	width: 25px;
+	height: 25px;
+	margin-top: 13px;
+}

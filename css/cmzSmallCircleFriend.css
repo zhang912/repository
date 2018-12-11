@@ -1,0 +1,78 @@
+html{
+    font-size:62.5%;
+}
+.head-publish{
+    position:absolute;
+    top:50%;
+    right:3.5%;
+    margin-top:-8px;
+    display:block;
+    width:18px;
+    height:17px;
+    background:url("../img/cmzSmlsearch.png") 0 0 no-repeat;
+    background-size:100% 100%;
+}
+.friendTalk{
+    width:93.7%;
+    margin-top:22px;
+    margin-left:3.9%;
+    overflow:hidden;
+}
+.friender{
+    width:12%;
+    float:left;
+}
+.friender a{
+    width:100%;
+}
+.friender img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+.friendCon{
+    float:right;
+    width:84.5%;
+}
+.friendCon h2{
+    font-size:1.2rem;
+    color:#333;
+}
+.friendCon p,.friendCon h3,.friendCon h4,.friendCon h5{
+    font-size:.8rem;
+    color:#9a9a9a;
+}
+.friendConImg2{
+    width:100%;
+    overflow:hidden;
+    margin-top:6px;
+    margin-bottom:2px;
+}
+.friendConImg2 img{
+    width:49.3%;
+    height:auto;
+    display:block;
+}
+.friendConImg2 img:nth-child(1){
+    float:left;
+}
+.friendConImg2 img:nth-child(2){
+    float:right;
+}
+.friendConImg1 img{
+    width:100%;
+}
+.friendCon h3{
+    float:left;
+}
+.friendCon h4,.friendCon h5{
+    float:right;
+}
+.friendCon h4,.friendCon h5{
+    margin-right:6.7%;
+}
+.friendCon h4 img,.friendCon h5 img{
+    width:9px;
+    height:auto;
+    margin-right:3px;
+}

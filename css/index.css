@@ -1,0 +1,200 @@
+.head-icon1{
+    width: 20px;
+    height: 15px;
+    background: url("../img/icon1.png") 0 0 no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 14px;
+    top: 50%;
+    margin-top: -8px;
+}
+.head-icon2{
+    position: absolute;
+    right: 7px;
+    height: 17px;
+    width: 18px;
+    background: url(../img/personal.png) 0 0 no-repeat;
+    background-size: 100% 100%;
+    top: 14px;
+}
+.alink{
+    padding-top: 6px;
+    padding-left: 6px;
+}
+.alink ul{
+    margin-bottom: 2px;
+}
+.alink li{
+    padding-right: 5px;
+}
+.alink img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 4px;
+}
+.content{
+    padding: 0 6px;
+    position: relative;
+}
+.content .new{
+    padding-left: 27px;
+    line-height: 27px;
+    font-size: 15px;
+    color: #9A9A9A;
+    background: url(../img/ynew.png) 6px 5px no-repeat;
+    background-size: 13px 14px;
+    border-bottom: 1px solid #DEDEDE;
+}
+.content ul{
+    border-bottom: 1px solid #DEDEDE;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    position: relative;
+}
+.content .pinfo h3{
+    font-size: 12px;
+}
+.content .pimg img{
+    width: 100%;
+    float: left;
+    height: auto;
+}
+.content .pinfo{
+    padding-left: 10px;
+}
+.content .pinfo p{
+    font-size: 8px;
+    color: #B6B6B6;
+}
+.content .pinglun{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-size: 8px;
+    color: #636363; 
+}
+.content .pinglun span{
+    display: inline-block;
+    padding-left:12px;
+}
+.content .zan{
+    background: url(../img/indexzan.png) 0 0 no-repeat;
+    background-size: 10px 9px;
+    margin-right: 18px;
+}
+.content .lun{
+    background: url(../img/indexlun.png) 0 0 no-repeat;
+    background-size: 10px 9px;
+}
+/*侧滑*/
+body{
+    overflow-x: hidden; -webkit-overflow-scrolling: touch; 
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+
+}
+body.active{
+    transform: translate3d(90%,0,0);
+    -webkit-transform: translate3d(90%,0,0);
+    -moz-transform: translate3d(90%,0,0);
+    -ms-transform: translate3d(90%,0,0);
+    -o-transform: translate3d(90%,0,0);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.slide-bar{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 90%;
+    left: 0;
+    z-index: 2;
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+    transform: translate3d(-100%,0,0);
+    -webkit-transform: translate3d(-100%,0,0);
+    -moz-transform: translate3d(-100%,0,0);
+    -ms-transform: translate3d(-100%,0,0);
+    -o-transform: translate3d(-100%,0,0);
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.sidetx{
+    position: relative;
+    margin-bottom: 7px;
+    border-top: 45px solid transparent;
+}
+.sidetx img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.sidetx  div{
+    height: 58px;
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    margin-top: -29px;
+}
+.sidetx  div a{
+    display: block;
+    line-height: 58px;
+    color: #fff;
+    height: 100%;
+    padding-left: 73px;
+    background:url(../img/tx-nv.png) 0 0 no-repeat;
+    background-size: auto 100%;
+    font-size: 15px;
+}
+
+.link .demo-block div{
+    margin-bottom: 2px;
+    background-color: #fff;
+    padding-left: 24px;
+}
+.link a{
+    display: block;
+    width: 80%;
+    line-height: 50px;
+    font-size: 15px;
+    color: #333;
+    padding-left: 45px;
+   
+}
+.link .ui-arrowlink:nth-child(1) a{
+    background: url(../img/xyxw.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(2) a{
+    background: url(../img/jypx.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(3) a{
+    background: url(../img/wqz.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(4) a{
+    background: url(../img/tssc.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(5) a{
+    background: url(../img/jzb.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
+.link .ui-arrowlink:nth-child(6){
+    margin-top: 10px;
+}
+.link .ui-arrowlink:nth-child(6) a{
+    background: url(../img/jzb.jpg) 0 9px no-repeat;
+    background-size: auto 30px;
+}
