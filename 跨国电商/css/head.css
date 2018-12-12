@@ -1,0 +1,242 @@
+		._head
+		{
+			width: 1200px;
+			background: #fff;
+			margin: 0px auto;
+			min-width: 1200px;
+		}
+		._head_top
+		{
+			width: 1200px;
+			height: 32px;
+		}
+		._head_top_left
+		{
+			float: left;
+			margin-left: 60px;
+			height: 32px;
+		}
+		._head_top_left li
+		{
+			float: left;
+		}
+	
+		._head_top_left li a
+		{
+			line-height: 32px;
+		}
+		._head_top_left_l1
+		{
+			padding-right: 14px;
+		}
+		._head_top_left_l3
+		{
+			padding-left: 11px;
+		}
+		._head_top_right
+		{
+			float: right;
+			margin-right: 33px;
+			width: 380px;
+			height: 32px;
+		}
+		._head_top_right li
+		{
+			float: left;
+			height: 32px;
+			line-height: 32px;
+			color: #666666;
+			cursor: pointer;
+		}
+		._head_top_right li:hover
+		{
+			color: #F78C35;
+		}
+		._head_bottom
+		{
+			width: 1200px;
+			height: 122px;
+		}
+		._head_bottom_bg
+		{
+			height: 122px;
+			background: url(../images/head_sanceng.jpg) 0 0 repeat-x;
+		}
+		._head_bottom_bg:after
+		{
+			content: "";
+			clear: both;
+			display: block;
+		}
+		._head_bottom_left
+		{	
+			float: left;
+			width: 88px;
+			height: 96px;
+			padding-top: 23px;
+			padding-left: 8px;
+		}
+		._head_bottom_center
+		{
+			float: left;
+			padding-top:79px;
+			width: 239px;
+			height: 33px;
+			margin-left: 4px;
+			color: #787878;
+		}
+		._head_bottom_right
+		{
+			float: left;
+			width: 842px;
+			height: 85px;
+			padding-top: 32px;
+			margin-left: 19px;
+		}
+		._head_bottom_right ul
+		{
+			width: 730px;
+			height: 40px;
+			color: #333333;
+			font-size: 18px;
+			font-weight: bold;
+			cursor: pointer;
+		}
+		._head_bottom_right ul:after
+		{
+			content: "";
+			clear: both;
+			display: block;
+		}
+		._head_bottom_right ul li
+		{
+			float: left;
+			height: 24px;
+		}
+		._head_bottom_right ul li:hover
+		{
+			color: #F78C35;
+		}
+		._head_bottom_right ul li ol li:hover
+		{
+			border-bottom: 1px solid  #f0f0f0;
+
+		}
+		._head_bottom_right_l1:hover ._head_bottom_right_down1
+		{
+			display: block;
+		}
+		._head_bottom_right_l2:hover ._head_bottom_right_down2
+		{
+			display: block;
+		}
+		._head_bottom_right_l3:hover ._head_bottom_right_down3
+		{
+			display: block;
+		}
+		._head_bottom_right_l1,._head_bottom_right_l2,._head_bottom_right_l3
+		{
+			position: relative;
+		}
+		._head_bottom_right ul li ol
+		{
+			position: absolute;
+			top:24px;
+			font-size: 14px;
+			font-weight: bold;
+			color: black;
+			border: 1px solid #CCCCCC;
+			background: #fff;
+			padding: 10px 0;
+			z-index: 5;
+			display: none;
+		}
+		._head_bottom_right_down1
+		{
+			width: 116px;
+			height: 116px;
+			left: -10px;
+		}
+		._head_bottom_right_down2,._head_bottom_right_down2,._head_bottom_right_down3
+		{
+			width: 224px;
+			height: 164px;
+			left: 57px;
+		}
+		._head_bottom_right_down1 a,._head_bottom_right_down2 a,._head_bottom_right_down3 a
+		{
+			padding:2px 15px 2px 30px; 
+		}
+		._head_bottom_right_down1 a:hover
+		{
+			color: #f78c19;
+		}
+		._head_bottom_right_down2 a:hover
+		{
+			color: #f78c19;
+		}
+		._head_bottom_right_down3 a:hover
+		{
+			color: #f78c19;
+		}
+		._head_bottom_right_down1 li
+		{
+			width: 116px;
+			height: 28px;
+			line-height: 28px;
+			border-bottom: 1px solid #fff;
+		}
+		._head_bottom_right_down2 li,._head_bottom_right_down3 li
+		{
+			width: 226px;
+			height: 28px;
+			line-height: 28px;
+			border-bottom: 1px solid #fff;
+		}
+		._head_bottom_right_box
+		{
+			width: 842px;
+			height: 50px;
+			overflow: hidden;
+		}
+		._head_bottom_right_box2
+		{
+			width: 98px;
+			height: 48px;
+			border: 1px solid #d9b997;
+			background: #f78c19;
+			float: left;
+			margin-left: 8px;
+			text-align: center;
+			line-height: 48px;
+			color: #fff;
+			cursor: pointer;
+		}
+		._head_bottom_right_box1
+		{
+			width: 725px;
+			height: 48px;
+			border: 1px solid #dadada;
+			float: left;
+		}
+		._head_bottom_right_box1 div
+		{
+			width: 143px;
+			height: 48px;
+			border-right: 1px solid #dbdbdb;
+			float: left;
+		}
+		._head_bottom_right_box1_pro
+		{
+			line-height: 48px;
+			padding-left: 28px;
+			padding-right: 20px;
+		}
+		._head_bottom_right_box1 input
+		{
+			width: 581px;
+			height: 48px;
+			float: left;
+			border: 0px;
+			color: #a3a2a2;
+		}

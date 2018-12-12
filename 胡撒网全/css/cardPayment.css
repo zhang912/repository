@@ -1,0 +1,157 @@
+body
+{
+    background: #efefee;
+}
+/*登陆部分*/
+._bg
+{
+    padding-top: 80%;
+    width: 100%;
+    position: relative;
+}
+._bg input
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+._bg img
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+._bg a:nth-child(2)
+{
+    position: absolute;
+    left: 39%;
+    top: 24%;
+    width: 24%;
+    height: 30%;
+}
+._bg a:nth-child(2) img
+{
+    width: 100%;
+    height: 100%;
+
+}
+._bg button
+{
+    background: #1ed1fc;
+    border-radius: 2px;
+    position: absolute;
+    left: 41%;
+    top: 70%;
+}
+._bg button a
+{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    line-height:29px;
+}
+._bg a:nth-child(3)
+{
+    position: absolute;
+    left: 3%;
+    top: 18%;
+    font-size: 14px;
+    color: #fff;
+}
+._bg a:nth-child(4)
+{
+    position: absolute;
+    left: 76%;
+    top: 36%;
+    font-size: 14px;
+    color: #a5988a;
+}
+._bg a:nth-child(5)
+{
+    position: absolute;
+    right: 3%;
+    top: 18%;
+
+}
+._bg a:nth-child(5) span:nth-child(1)
+{
+    color: #0acdfe;
+    font-size: 14px;
+}
+._bg a:nth-child(5) span:nth-child(2)
+{
+    color: #959595;
+    transform: scale(1.5);
+}
+._bg a:nth-child(6)
+{
+    position: absolute;
+    left: 18%;
+    top: 44%;
+    font-size: 14px;
+    color: #4396a9;
+}
+/*生活服务*/
+._service
+{
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
+    padding-top: 12px;
+    padding-left: 10px;
+    background: url("../images/card-border.png")0 0 repeat-x;
+    box-sizing: border-box;
+}
+._service h3
+{
+    font-size: 16px;
+    color:#333;
+    font-weight: bold;
+}
+.ui-btn
+{
+    width: 18px;
+    background: #f8f8f8;
+}
+.ui-row
+{
+    border-top: 2px solid #ccc;
+}
+.ui-row li:nth-child(1), .ui-row li:nth-child(2)
+{
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.ui-row li:nth-child(3)
+{
+    border-bottom: 1px solid #ccc;
+}
+.ui-row li:nth-child(4), .ui-row li:nth-child(5)
+{
+    border-right: 1px solid #ccc;
+}
+.ui-row a
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #212121;
+}
+.ui-row img
+{
+    width: 42px;
+    height: 42px;
+}
+._foot
+{
+    background: #fff;
+    margin-top: 5px;
+}

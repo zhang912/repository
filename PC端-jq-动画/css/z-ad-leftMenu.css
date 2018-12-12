@@ -1,0 +1,134 @@
+/*left*/
+.-indexLeft
+{
+    width: 103px;
+    height:100%;
+    position: fixed;
+    left:0;
+    top:0;
+    background: #041522;
+    z-index: 2;
+}
+.-indexLeft-top
+{
+    width:36px;
+    margin: 20px auto;
+}
+.-indexLeft-top span
+{
+    height:15px;
+    border-top: 1px solid #fff;
+    display: block;
+}
+.-indexLeft-nav
+{
+    width:103px;
+    height:256px;
+    display: none;
+}
+.-indexLeft-nav ul
+{
+    width:103px;
+    height:256px;
+}
+.-indexLeft-nav ul li
+{
+    width:100px;
+    height:40px;
+    border-bottom: 1px dotted #333;
+    text-align: center;
+    line-height:40px;
+}
+.-indexLeft-nav ul li a
+{
+    color: #fff;
+}
+.-indexLeft-sideBar
+{
+    margin: 0 auto;
+    width:68px;
+    height:72px;
+    background: url("../images/z_ad_advance.png") 0 0 no-repeat;
+}
+/*foot*/
+._indexFoot
+{
+    width:100%;
+    height:66px;
+    position: fixed;
+    left: 103px;
+    background: rgba(52, 54, 52, .3);
+    z-index: 2;
+    line-height:66px;
+    overflow: hidden;
+}
+._indexFoot_logo
+{
+    float: left;
+    width:102px;
+    height:66px;
+}
+._indexFoot_logo img
+{
+    width:102px;
+    height:66px;
+    display: block;
+}
+._indexFoot_cal
+{
+    width:180px;
+    height:66px;
+    margin-left:10px;
+    float: left;
+}
+._indexFoot_cal span
+{
+    display: block;
+    line-height:66px;
+    float: left;
+    color: #ffffff;
+}
+._indexFoot_cal img
+{
+    display: block;
+    width:30px;
+    height:35px;
+    float: left;
+    margin-top:12px;
+    margin-left:18px;
+}
+#_topNav
+{
+    width:825px;
+    height:66px;
+    float: right;
+    color: #ffffff;
+    position: relative;
+    z-index: 2;
+}
+#_topNav li
+{
+    float: left;
+    width:120px;
+    height:66px;
+    line-height:66px;
+    text-align: center;
+    z-index: 2;
+    position: relative;
+}
+#_topNav li a
+{
+    color: #ffffff;
+    z-index: 2;
+}
+#wrap
+{
+    position: absolute;
+    left: 0;
+    top:0;
+    width:120px;
+    height:66px;
+    background: rgba(52, 54, 52, .4);
+    z-index: 0;
+    border-radius: 10px;
+}

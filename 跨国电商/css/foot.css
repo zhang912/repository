@@ -1,0 +1,95 @@
+		._foot
+		{
+			width: 1200px;
+			margin-top: 1px;
+			min-width: 1200px;
+			margin: 0 auto;
+		}
+		._foot_top
+		{
+			width: 1200px;
+			height: 250px;
+		}
+		._foot_top_bg
+		{
+			width: 979px;
+			height: 223px;
+			margin: 0 auto;
+			margin-top: 28px;
+		}
+		._foot_top_bg ul
+		{
+			margin-right: 130px;
+			float: left;
+			color: #999999;
+			cursor: pointer;
+		}
+		._foot_top_bg ul li:hover
+		{
+			color: #f78c19;
+		}
+		._foot_top_u1 li
+		{
+			margin-bottom: 13px;
+		}
+		._foot_top_bg ._foot_top_u1_l
+		{
+			color: #333333;
+			margin-bottom: 24px;
+		}
+		._foot_center
+		{
+			width: 1179px;
+			height: 58px;
+			border-top: 1px solid #c9c9c9;
+			border-bottom: 1px solid #c9c9c9;
+		}
+		._foot_center ul
+		{
+			width: 1000px;
+			height: 58px;
+			margin-left: 96px;
+			line-height: 58px;
+		}
+		._foot_center ul li
+		{
+			float: left;
+		}
+		._foot_center ul li img
+		{
+			width: 35px;
+			height: 35px;
+			margin-right: 8px;
+			margin-top: 13px;
+		}
+		._foot_center_peo
+		{
+			background: url(../images/foot_people.png) 0px 16px no-repeat;
+			padding-left: 32px;
+			cursor: pointer;
+		}
+		._foot_center_peo:hover
+		{
+			color: #f78c19;
+		}
+		._foot_bottom
+		{
+			width: 1200px;
+			height: 138px;
+		}
+		._foot_bottom ul
+		{
+			width: 800px;
+			height: 78px;
+			margin: 0 auto;
+		}
+		._foot_bottom ul
+		{
+			overflow: hidden;
+		}
+		._foot_bottom li
+		{
+			float: left;
+			margin-bottom: 4px;
+			color: #a6a6a6;
+		}

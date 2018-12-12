@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="卡支付">
+    <meta name="description" content="卡支付">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/frozen.css">
+    <link rel="stylesheet" href="../css/community.css">
+    <link rel="stylesheet" href="../css/cardPayment.css">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+    <!--头部-->
+    <header class="ui-header ui-header-stable ui-border-b">
+        <h1>卡支付</h1>
+        <img class="ui-btn" src="../images/card-talk.png" alt="">
+
+    </header>
+    <!--登陆部分-->
+    <div class="_bg">
+        <img src="../images/card-bg.jpg" alt="">
+        <a href="">
+            <img src="../images/card-touxiang.png" alt="">
+            <input type="file" capture="photo">
+        </a>
+        <a href="">银行卡</a>
+        <a href="">银行卡</a>
+        <a href="">
+            <span>默认卡设置</span>
+            <span>></span>
+        </a>
+        <a href="">账单</a>
+        <button>
+            <a href="">点击登录</a>
+        </button>
+    </div>
+    <!--生活服务-->
+    <div class="_service">
+        <h3>生活服务</h3>
+        <!--六宫格-->
+        <ul class="ui-row">
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-lift-ran.jpg" alt="">
+                    <p>燃气供暖</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-life-dian.jpg" alt="">
+                    <p>电费</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-life-shui.jpg" alt="">
+                    <p>水费</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-life-gu.jpg" alt="">
+                    <p>固话宽带</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-life-you.jpg" alt="">
+                    <p>有线电视</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-life-wu.jpg" alt="">
+                    <p>物业费</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--卡支付-->
+    <div class="_service">
+        <h3>卡支付</h3>
+        <!--六宫格-->
+        <ul class="ui-row">
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-card-ka.png" alt="">
+                    <p>办卡进度</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-card-kai.png" alt="">
+                    <p>我要开卡</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-card-banka.png" alt="">
+                    <p>我要办卡</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-card-guanli.png" alt="">
+                    <p>卡片管理</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-card-zhang.png" alt="">
+                    <p>账址修改</p>
+                </a>
+            </li>
+            <li class="ui-col ui-col-33">
+                <a href="">
+                    <img src="../images/card-card-tuijian.png" alt="">
+                    <p>推荐有礼</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--底部导航栏-->
+    <ol class="_foot">
+        <li>
+            <a href="../index.html">
+                <img src="../images/community-foot1.png" alt="">
+                <span>首页</span>
+            </a>
+        </li>
+        <li>
+            <a href="socialContact.html">
+                <img src="../images/community-foot2.jpg" alt="">
+                <span>社交</span>
+            </a>
+        </li>
+        <li>
+            <a href="community.html">
+                <img src="../images/community-foot4.png" alt="">
+                <span>发现</span>
+            </a>
+        </li>
+        <li>
+            <a href="cardPayment.html">
+                <img src="../images/community-foot5.png" alt="">
+                <span>惠生活</span>
+            </a>
+        </li>
+        <img src="../images/community-foot3.png" alt="" class="_footImg">
+    </ol>
+    <!-----------js----------->
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/frozen.js"></script>
+    <script>
+        $("._foot li").tap(function(){
+            var i=$('._foot li').index(this);
+            var
+                    arr1=["../images/community-foot1-1.png","../images/community-foot2-1.png","../images/community-foot4-1.png","../images/community-foot5-1.png"];
+            var
+                    arr2=["../images/community-foot1.png","../images/community-foot2.jpg","../images/community-foot4.png","../images/community-foot5.png"];
+            $('._foot li img').eq(i).attr('src',arr1[i]).parent().parent().siblings().find('img').each(function (a) {
+                for (var j=0;j<$('._foot li').length;j++){
+                    if (i!=j){
+                        $('._foot li img').eq(j).attr('src',arr2[j]);
+                    }
+                }
+            });
+            $('._foot li span').eq(i).css({"color":"#ff9934"}).parent().parent().siblings().find('span').css({"color":"#666"})
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+body
+{
+    background: #eeeeee;
+}
+/*产品说明*/
+._rule
+{
+    background: #fff;
+    overflow: hidden;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+._ruleLeft
+{
+    float: left;
+}
+._ruleLeft span
+{
+    display: block;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+._ruleLeft a
+{
+    display: block;
+    color: #999;
+    font-size: 14px;
+}
+._ruleRight
+{
+    float: right;
+}
+._ruleRight a
+{
+    display: block;
+    color: #fff;
+    background: #05cdff;
+    border-radius: 5px;
+    font-size: 14px;
+}
+/*主体部分*/
+._main
+{
+    background: #fff;
+    width: 97%;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+._mainLeft
+{
+    float: left;
+    border: 1px solid #dddddd;
+    width: 24%;
+    box-sizing: border-box;
+}
+._mainLeft img
+{
+    display: block;
+    width: 76%;
+    height: auto;
+    margin: 0 auto;
+}
+._mainRight
+{
+    float: left;
+    padding-left: 10px;
+    box-sizing: border-box;
+    width: 76%;
+}
+._mainRight ol
+{
+    float: left;
+}
+._mainRight li:nth-child(1)
+{
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+._mainRight li:nth-child(2)
+{
+    color: #999;
+    font-size: 14px;
+}
+._mainRight li:nth-child(3) span:nth-child(1)
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff9934;
+}
+._mainRight li:nth-child(3) span:nth-child(2)
+{
+    font-size: 14px;
+    font-weight: bold;
+    color: #999;
+    text-decoration: line-through;
+}
+._mainRight li:nth-child(4) div
+{
+    border-radius: 10px;
+    background: #dddddd;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    height: 21px;
+}
+._mainRight li:nth-child(4) p
+{
+    position: absolute;
+    z-index: 5;
+    left:10% ;
+}
+._mainRight li:nth-child(4) span
+{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: #ff9934;
+    width: 45%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 2;
+}
+._buy
+{
+    float: right;
+}
+._buy p
+{
+    text-align: right;
+    padding-bottom: 42px;
+}
+._buy a
+{
+    color: #05cdff;
+    border: 1px solid #05cdff;
+    text-align: center;
+    border-radius: 2px;
+}

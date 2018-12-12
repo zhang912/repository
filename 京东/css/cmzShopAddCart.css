@@ -1,0 +1,2000 @@
+body{background:#ffffff;}
+a{
+    color:#666;
+    font-size:14px;
+}
+.hd-nav{
+	background: #F1F1F1;
+	height: 30px;
+	min-width: 1210px;
+}
+.hd-navcon{
+	width: 1210px;
+	height: 30px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.hd-navcon:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.hd-nav-l{
+	float: left;
+}
+.hd-site{
+	position: relative;
+	padding-left: 1px;
+	padding-right: 1px;
+}
+.hd-site:hover{
+	background: #fff;
+	padding-left: 0;
+	padding-right: 0;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+}
+.hd-site:hover .hd_siteSpacer{
+	width:95px;
+	height:3px;
+	background:#fff;
+	position:absolute;
+	z-index:20;
+	left:0;
+	top:28px;
+}
+.hd-site-show{
+	padding-left: 10px;
+	padding-right: 25px;
+	height: 30px;
+	line-height: 30px;
+}
+.hd-site-change{
+	position: absolute;
+	width: 300px;
+	left: -1px;
+	top: 30px;
+	background: #fff;
+	padding: 8px 0;
+	overflow: hidden;
+	border: 1px solid #DDDDDD;
+	display: none;
+	z-index: 10;
+}
+.hd-site:hover .hd-site-change{
+	display: block;
+}
+.hd-site-change div{
+	float: left;
+	height: 24px;
+	width: 52px;
+	line-height: 24px;
+	padding-left: 8px;
+}
+.hd-site-change a{
+	display: inline-block;
+	color: #666;
+	padding:0 8px;
+}
+#hd_site_change .hd-site-slct{
+	background: red;
+	color: #fff;
+}
+.hd-site-change a:hover{
+	background: #F4F4F4;
+	color: red;
+}
+.hd-nav-r{
+	float: right;
+}
+.hd-nav-r li{
+	float: left;
+	padding: 0 8px;
+	line-height: 30px;
+}
+.hd-nav-r li a:hover{
+	color: red;
+}
+.hd-nav-r .hdfore{position:relative;padding-right:10px;}
+.hdfore span{background:url(../images/cmz_dropDown.png) 50% 50% no-repeat;}
+.hdforeLayerSpacer{z-index:20;width:82px;height:3px;position:absolute;left:1px;top:28px;}
+.hdfore:hover .hdforeLayerSpacer{background:#fff;}
+.hdforeLayer{display:none;z-index:10;border:1px solid #DDDDDD;background:#fff;position:absolute;left:0;top:30px;width:280px;}
+.hdfore:hover .hdforeLayer{display:block;}
+.hdfore:hover .jdConcern{display:block;}
+.jdConcern{padding:5px;display:none;z-index:10;border:1px solid #DDDDDD;background:#fff;position:absolute;left:0;top:30px;width:73px;}
+.hduserInfor{overflow:hidden;padding:10px 0 10px 15px;}
+.hduserInfor1,.hduserInfor2{width:200px;float:left;}
+.hduserInforHd{width:60px;height:60px;display:block;float:left;}
+.hduserInforHd img{width:60px;height:60px;border-radius:50%;}
+.hdforeMydetail{padding-left:15px;margin:8px 0;}
+.hdforeMydetail div{float:left;width:126px;height:24px;line-height:24px;}
+.hdfore:hover span{background:url(../images/cmz_dropUp.png) 50% 50% no-repeat;}
+.hdfore:hover{background:#fff;}
+.hdservicerLayer{overflow:hidden;width:170px;background:#fff;padding:5px;display:none;z-index:10;border:1px solid #DDDDDD;position:absolute;left:0;top:30px;}
+.hdservicerLayerWrap{float:left;}
+.hdservicerLayerTit{padding-left:10px;width:170px;}
+.hdservicerCon{width:70px;height:24px;padding-left:10px;float:left;}
+.hdfore:hover .hdservicerLayer{display:block}
+.hdfore:hover .hdNavigation{display:block}
+.hdNavigation{display:none;overflow:hidden;padding:20px 0;z-index:10;width:1210px;position:absolute;right:0;top:30px;border:1px solid #DDDDDD;background:#fff;}
+.hdNavigation dl{float:left;}
+.hdNavigation1{width:347px;height:150px;padding-left:20px;border-right:1px solid #ccc;}
+.hdNavigationO{width:259px;height:150px;padding-left:20px;border-right:1px solid #ccc;}
+.hdNavigationEnd{border-right:none;}
+.hdNavigation dl dd{overflow:hidden;}
+.hdNavigation dl dd div{width:86px;height:24px;float:left;}
+.hd-nav-r a{
+	color: #666;
+	font-size: 12px;
+}
+.hd-nav-r .cmzHdSpacer{padding:0;background:#ddd;;width:1px;height:12px;margin-top:9px;}
+.hd-nav-r .register{
+	color: red;
+}
+#my_ord_con{
+	display: none;
+}
+.hd-mid{
+	background:#fff;
+	width: 1210px;
+	height: 100px;
+	margin: 0 auto;
+}
+/*--------------------hd-nav	end--------------------------------------------*/
+.hd-mid:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.hd-log{
+	width:362px;
+	padding: 20px 0;
+	float: left;
+}
+.logo{
+	display: block;
+	width: 270px;
+	height: 60px;
+	background: url(../images/cmzlogo.png) 0 0 no-repeat;
+}
+#search{
+	float: left;
+	margin-top: 25px;
+}
+#search input{
+	float: left;
+	padding: 4px;
+	width: 446px;
+	height: 24px;
+	border: 2px solid red;
+	margin-bottom: 4px;
+}
+#search button{
+	cursor: pointer;
+	float: left;
+	width: 82px;
+	height: 36px;
+	border: none;
+	background: red;
+	color: #fff;
+	font-size: 16px;
+}
+.shop-cart{
+	float: right;
+	margin-top: 25px;
+	margin-right: 65px;
+    position: relative;
+}
+.shop-tit{
+    border:1px solid #666;
+	background: #F9F9F9;
+	padding-left: 36px;
+	padding-right: 28px;
+	height: 34px;
+	line-height: 34px;
+	position: relative;
+}
+.shop-tit:hover{background: #fff;}
+.shop-cart:hover .shop-cart-main{
+    display:block;
+}
+.shop-cart:hover .shop-cartSpacer{
+    display:block;
+}
+.shop-cart-main{
+    display:none;
+    text-align:center;
+    overflow:hidden;
+    z-index:10;
+    padding:10px 2px;
+    width:308px;
+    height:30px;
+    background:#fff;
+    border:1px solid #666;
+    position:absolute;
+    right:0;
+    top:34px;
+}
+.shop-cartSpacer{
+    display:none;
+    z-index:11;
+    background:#fff;
+    width:134px;
+    height:2px;
+    position:absolute;
+    left:1px;
+    top:34px;
+}
+.shopcar{
+	position: absolute;
+	margin-top: 4px;
+	display: block;
+	width: 18px;
+	height: 16px;
+	left: 14px;
+	top: 6px;
+	background: url(../images/cmzjdhd.png) 0 -58px no-repeat;
+}
+.shop-tit a{
+	color: #666;
+	font-size: 14px;
+}
+.hd-promotion{
+	float: left;
+}
+.hd-promotion a{
+	color: #666;
+	font-size: 12px;
+	margin-right: 10px;
+}
+.hd-promotion .hd-promotion-first{
+	color: red;
+}
+.hd-promotion a:hover{
+	color: red;
+}
+/*----------------------------------------------------------------*/
+.hd-foot{
+    background:#fff;
+	width: 1210px;
+	height: 44px;
+	margin: 0 auto;
+}
+.hd-foot:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.hd-foot-lft{
+	float: left;
+	width: 210px;
+	position: relative;
+    background: #B1191A;
+}
+.hd-foot-lft-tit a{
+	display: block;
+	padding: 0 10px;
+	width: 190px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 15px;
+	color: #fff;
+    background:url(../images/cmzAllclassify.png) 85% 50% no-repeat;
+}
+.hd-foot-lft-inner{
+	position: absolute;
+	left: 0;
+	top: 44px;
+}
+.hd-foot-lft-con{
+	padding-top: 2px;
+	background: #C81623;
+	position: relative;
+	padding-bottom: 1px;
+}
+.hd-foot-lft-con h3{
+	padding: 0 10px;
+	position: relative;
+	width: 189px;
+	height: 31px;
+	z-index: 3;
+}
+.hd-foot-lft-con a{
+	font-size: 15px;
+	color: #fff;
+}
+.hd-foot-lft-con-slct{
+	border-left: 1px solid #C81623;
+}
+.hd-foot-lft-con-slct:hover h3{
+	background: #fff;
+}
+.hd-foot-lft-con-slct:hover a{
+	color: #B61D1D;
+}
+.hd-item{
+	display: none;
+	position: absolute;
+	left: 209px;
+	top: 1px;
+	border:1px solid #b61d1d;
+	background: #fff;
+	text-align: center;
+	line-height: 521px;
+	width: 999px;
+	height: 521px;
+	z-index: 2;
+}
+.hd-foot-lft-con-slct:hover .hd-item {
+	display: block;
+}
+.hd-foot-rgt{
+	float: left;
+}
+.hd-foot-rgt li{
+	float: left;
+}
+.hd-foot-rgt a{
+	display: block;
+	color: #666;
+	padding: 0 20px;
+	height: 44px;
+	line-height: 44px;
+}
+.hd-foot-rgt a:hover{
+	color: red;
+}
+.hd-foot-bottom{
+	min-width: 1210px;
+	height: 2px;
+	background: #B1191A;
+}
+/*-----------------------------------------------------------------*/
+#focus{
+	width: 1210px;
+	height: 466px;
+	margin: 0 auto;
+}
+.slider-main{
+	position: relative;
+}
+.slider-main a{
+	display: block;
+	width: 730px;
+	height: 454px;
+	margin-left: 220px;
+	margin-top: 12px;
+}
+.slider-panel{
+	width: 1210px;
+	height: 466px;
+	position: absolute;
+	opacity: 0;
+	filter:alpha(opacity=0);
+}
+.slider-panel-selected{
+	opacity: 1;
+}
+.slider-extra{
+	width: 1210px;
+	height: 466px;
+	position: relative;
+}
+.slider-nav{
+	position: absolute;
+	width: 750px;
+	top: 440px;
+	left: 210px;
+	text-align: center;
+}
+.slider-item{
+	width: 18px;
+	height: 18px;
+	line-height: 18px;
+	display: inline-block;
+	margin: 0 2px;
+	background: #3e3e3e;
+	border-radius: 50%;
+	text-align: center;
+	color: #fff;
+	overflow: hidden;
+	cursor: pointer
+}
+.slider-prev{
+	position: absolute;
+	left: 220px;
+	top: 50%;
+	margin-top: -31px;
+	width: 28px;
+	height: 62px;
+	line-height: 62px;
+	background: gray;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: simsun;
+}
+.slider-next{
+	position: absolute;
+	right: 260px;
+	top: 50%;
+	margin-top: -31px;
+	width: 28px;
+	height: 62px;
+	line-height: 62px;
+	background: gray;
+	color: #fff;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 400;
+	font-family: simsun;
+}
+/*---------------------------------------------------------------*/
+#focus_extra{
+	position: relative;
+	width: 1210px;
+	margin: 0 auto;
+	/*z-index: 8;*/
+	top: -466px;
+}
+#jd_news{
+	width: 248px;
+	height: 270px;
+	overflow: hidden;
+	top: 12px;
+	border: solid 1px #e4e4e4;
+	border-bottom: 0;
+	position: absolute;
+	right: 0;
+	background: rgba(255,255,255,.85);
+	color: #666;
+}
+.jd_news_tit{
+	height: 32px;
+	line-height: 32px;
+	padding: 0 15px;
+	border-bottom: 1px dotted #E8E8E7;
+}
+h2{
+	float: left;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 32px;
+}
+.jd_news_tit div{
+	float: right;
+}
+.jd_news_tit a{
+	color: #666;
+	font-family: consolas;
+}
+.jd_news_con{
+	/*height: 120px;*/
+	padding: 8px 0 0 15px;
+	padding-top: 5px;
+}
+.jd_news_con li{
+	line-height: 24px;
+	height: 24px;
+}
+.jd_news_con a{
+	color: #666;
+	font-size: 12px;
+}
+.jd_news_con a span{
+	color: #666;
+	font-size: 12px;
+	font-weight: 700;
+	margin-right: 5px;
+}
+.jd_news_con a:hover{
+	color: #C81623;
+}
+#lifeserve{
+	position: absolute;
+	width: 248px;
+	height: 209px;
+	overflow: hidden;
+	right: 0;
+	top: 176px;
+	padding: 0;
+	background: rgba(255,255,255,.85);
+	border: 1px solid #E8E8E7;
+	color: #666;
+}
+#lifeserve ul{
+	overflow: hidden;
+	width: 260px;
+
+	/*height: 209px;*/
+}
+#lifeserve li{
+	float: left;
+	width: 62px;
+	/*height: 27px;*/
+	border-right: 1px solid #E8E8E7;
+	border-bottom: 1px solid #E8E8E7;
+	text-align: center;
+}
+#lifeserve .lifeserve_selectColor{
+    background:green;
+}
+#lifeserve ul a{
+	display: block;
+	padding-top: 41px;
+	height: 28px;
+	color: #666;
+	line-height: 28px;
+}
+#lifeserve ul a:hover{
+	color: red;
+}
+#lifeserve_show{
+	position: absolute;
+	left:0;
+	top:210px;
+	width:250px;
+	height:180px;
+	background: #fff;
+	display: none;
+}
+#lifeserve_show .lifeserve_showc{
+	position: absolute;
+	left:0;
+	top:0;
+	width:250px;
+	height:180px;
+	background: red;
+	text-align: center;
+	line-height:180px;
+}
+#lifeserve_show .lifeserve_close{
+    text-align:center;
+    width:20px;
+    height:20px;
+    z-index:1;
+    position: absolute;
+    right:0;
+    top:0;
+    line-height:20px;
+}
+.lifeserve_close a{
+    color:red;
+    display:block;
+    width:20px;
+    height:20px;
+    background:#666;
+}
+.life_show{
+	z-index: 1;
+    background:#fff;
+}
+.lifeserFooter{
+	position: absolute;
+	width: 248px;
+	height: 209px;
+	overflow: hidden;
+	right: 0;
+	top: 390px;
+}
+/*--------------------lifeserve	END-------------------------------------*/
+/*--------------------todays start-------------------------------------*/
+#todays{
+	width:1210px;
+	height:164px;
+	margin:10px auto 20px;
+}
+#todaysLeft{
+	float:left;
+    height:164px;
+}
+#todaysLeft img{
+	display:block;
+}
+#todaysRight{
+	float:left;
+	width:1000px;
+}
+#bigRoll{
+    width: 1000px;
+    height: 164px;
+    position: relative;
+}
+#bigRolWrap{
+    width: 1000px;
+    height: 164px;
+    overflow: hidden;
+}
+#bigRolCon{
+    width: 8000px;
+    height: 164px;
+    overflow: hidden;
+}
+#bigRolCon a{
+    float: left;
+    width: 1000px;
+    height: 164px;
+}
+#bigRolCon a img{
+    float:left;
+    /*display:block;*/
+    width: 249px;
+    margin-right:1px;
+    height: 164px;
+}
+#bigRollL,#bigRollR{
+    font-family: simsun;
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    background:#ccc;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+    top:30%;
+    display:none;
+}
+#todaysRight:hover #bigRollL{
+    display:block;
+}
+#todaysRight:hover #bigRollR{
+    display:block;
+}
+#bigRollL{
+    left: 0;
+}
+#bigRollR{
+    right: 0;
+}
+/*--------------------todays	END-------------------------------------*/
+/*--------------------guess you like	END-------------------------------------*/
+#guess{
+    width:1210px;
+    margin:0 auto;
+}
+#guessTit{
+    overflow:hidden
+}
+.guessTitL{
+    width:308px;
+    background:url(../images/cmz_homebg.png) 85px -91px;
+    float:left;
+}
+.guessTitR{
+    color:#ccc;
+    float:right;
+    padding-right:25px;
+    background:url('../images/cmz_homebg.png') -300px -5px no-repeat;
+}
+.guessTitR:hover{
+    color:#C91724;
+    background:url('../images/cmz_homebg.png') -300px -29px no-repeat;
+}
+#guessMain{
+    border:1px solid #ccc;
+}
+.guessCon{
+    display:none;
+    overflow:hidden;
+    padding:15px 0;
+}
+#guessMain .guessConSel{
+    display:block;
+}
+.guessCon li{
+width:201px;
+float:left;
+}
+.guessImg{
+margin:0 auto;
+width:130px;
+height:130px;
+display:block;
+margin-bottom:10px;
+}
+.guessImg img{
+width:130px;
+height:130px;
+display:block;
+}
+.gueInfor{
+display:block;
+padding:0 36px;
+border-right:1px solid #ccc;
+font-size:12px;
+}
+.guessCon li:nth-child(6) .gueInfor{
+    border-right:none;
+}
+.gueDetail{
+    width:129px;
+    margin-bottom:6px;
+}
+.gueDetail:hover{
+	color:#B51D1A;
+}
+.gueInfor .guePrice{
+    font-size:14px;
+    color:#B51D1A;
+}
+
+/*--------------------guess you like	END-------------------------------------*/
+/*--------------------qualityLife	start-------------------------------------*/
+#qualityLife{
+    width:1210px;
+    margin:20px auto;
+}
+#qualityLifeTit{
+    height:36px;
+}
+/*--------------------qualityLife	END-------------------------------------*/
+/*--------------------floorUp	start-------------------------------------*/
+.floorUp{
+    width:1210px;
+    margin:0 auto;
+}
+.floorUp img{
+    display:block;
+}
+/*--------------------floorUp	END-------------------------------------*/
+/*--------------------floor 	start-------------------------------------*/
+/*--------------------floor1 	start-------------------------------------*/
+.floor{
+    width:1210px;
+    margin:0 auto;
+    margin-top:20px;
+}
+.floorTit{
+    width:1210px;
+    /*height:37px;*/
+    /*overflow:hidden;*/
+    position:relative;
+    z-index:10;
+}
+.floorTit:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.floorTitLeft{
+    float:left;
+    height:30px;
+}
+.floorTitBg{
+    position:relative;
+    line-height:25px;
+    font-size:12px;
+    margin-right:10px;
+    color:#fff;
+    float:left;
+    width:31px;
+    height:25px;
+    background:url(../images/cmz_floorbg.png) 0 -35px no-repeat;
+}
+.floorTitLeft h2{
+    height:30px;
+    float:left;
+    font-size:20px;
+}
+.floorTitRight{
+    float:right;
+    border:1px solid #ccc;
+    border-bottom:none;
+
+}
+.floorTitRight li{
+    height:34px;
+    float:left;
+    position:relative;
+    left:0;
+    top:0;
+}
+.floorTitR2{
+    width:58px;
+}
+.floorTitR4{
+    width:82px;
+}
+.floorTitR2 a{
+    width:58px;
+}
+.floorTitR4 a{
+    width:82px;
+}
+.floorTitRight li a{
+    background:#fff;
+    font-size:12px;
+    position:absolute;
+    text-align:center;
+    display:block;
+    height:34px;
+    line-height:34px;
+}
+.floorTitRight .floorTitRSel span{
+    display:none;
+}
+.floorTitRight .floorTitRSel a{
+    color:#C81623;
+    left:-1px;
+    top:-1px;
+    z-index:10;
+    height:33px;
+    line-height:30px;
+    border-top:3px solid #C81623;
+    border-left:1px solid #C81623;
+    border-right:1px solid #C81623;
+}
+.floorTitRight li span{
+    display:block;
+    width:1px;
+    height:14px;
+    background:#ccc;
+    position:absolute;
+    right:0;
+    top:10px;
+    z-index:-1;
+}
+.floorCon{
+    width:1210px;
+    overflow:hidden;
+    border-top:1px solid #C81623;
+}
+.floorConLeft{
+    width:330px;
+    float:left;
+}
+.floorConLeft a,.floorConLeft img{
+    display:block;
+    width:330px;
+}
+.floorConRight{
+    width:880px;
+    /*overflow:hidden;*/
+    float:right;
+}
+.floorConRight .floorConRCon{
+    width:880px;
+    overflow:hidden;
+    display:none;
+}
+.floorCon .floorConRight .floorConRConSel{
+    display:block;
+}
+.floorConRConNum a{
+    float:left;
+    display:block;
+    width:219px;
+    height:237px;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.floorConRConNum img{
+    display:block;
+    width:219px;
+    height:237px;
+}
+.floorRgtL{
+    width:440px;
+    float:left;
+}
+.floorRgtR{
+    width:440px;
+    float:left;
+}
+.floorRgtR a{
+    display:block;
+    width:219px;
+    height:157px;
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    float:left;
+}
+.floorRgtLBorder{
+    border-right:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.floorRgtL img{
+    display:block;
+}
+.floorConRConNum{}
+#bigRoll1{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+.bigRollLr{
+    display:none;
+}
+#bigRoll1:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap1{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon1{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon1 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon1 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL1,#bigRollR1{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL1{
+    left:0;
+}
+#bigRollR1{
+    right: 0;
+}
+#bigRolSlider1{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider1:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider1 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider1 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor1	END-------------------------------------*/
+
+
+/*--------------------floor2	start-------------------------------------*/
+#bigRoll2{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll2:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap2{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon2{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon2 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon2 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL2,#bigRollR2{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL2{
+    left:0;
+}
+#bigRollR2{
+    right: 0;
+}
+#bigRolSlider2{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider2:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider2 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider2 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor2	END-------------------------------------*/
+
+/*--------------------floor3	start-------------------------------------*/
+#bigRoll3{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll3:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap3{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon3{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon3 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon3 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL3,#bigRollR3{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL3{
+    left:0;
+}
+#bigRollR3{
+    right: 0;
+}
+#bigRolSlider3{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider3:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider3 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider3 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor3	END-------------------------------------*/
+/*--------------------floor4	start-------------------------------------*/
+#bigRoll4{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll4:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap4{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon4{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon4 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon4 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL4,#bigRollR4{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL4{
+    left:0;
+}
+#bigRollR4{
+    right: 0;
+}
+#bigRolSlider4{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider4:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider4 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider4 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor4	END-------------------------------------*/
+/*--------------------floor5	start-------------------------------------*/
+#bigRoll5{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll5:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap5{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon5{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon5 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon5 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL5,#bigRollR5{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL5{
+    left:0;
+}
+#bigRollR5{
+    right: 0;
+}
+#bigRolSlider5{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider5:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider5 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider5 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor5	END-------------------------------------*/
+/*--------------------floor6	start-------------------------------------*/
+#bigRoll6{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll6:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap6{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon6{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon6 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon6 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL6,#bigRollR6{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL6{
+    left:0;
+}
+#bigRollR6{
+    right: 0;
+}
+#bigRolSlider6{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider6:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider6 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider6 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor6	END-------------------------------------*/
+/*--------------------floor7	start-------------------------------------*/
+#bigRoll7{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll7:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap7{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon7{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon7 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon7 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL7,#bigRollR7{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL7{
+    left:0;
+}
+#bigRollR7{
+    right: 0;
+}
+#bigRolSlider7{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider7:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider7 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider7 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor7	END-------------------------------------*/
+/*--------------------floor8	start-------------------------------------*/
+#bigRoll8{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll8:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap8{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon8{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon8 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon8 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL8,#bigRollR8{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL8{
+    left:0;
+}
+#bigRollR8{
+    right: 0;
+}
+#bigRolSlider8{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider8:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider8 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider8 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor8	END-------------------------------------*/
+/*--------------------floor9	start-------------------------------------*/
+#bigRoll9{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll9:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap9{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon9{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon9 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon9 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL9,#bigRollR9{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL9{
+    left:0;
+}
+#bigRollR9{
+    right: 0;
+}
+#bigRolSlider9{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider9:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider9 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider9 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor9	END-------------------------------------*/
+/*--------------------floor10	start-------------------------------------*/
+#bigRoll10{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll10:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap10{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon10{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon10 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon10 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL10,#bigRollR10{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL10{
+    left:0;
+}
+#bigRollR10{
+    right: 0;
+}
+#bigRolSlider10{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider10:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider10 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider10 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor10	END-------------------------------------*/
+/*--------------------floor11	start-------------------------------------*/
+#bigRoll11{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll11:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap11{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon11{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon11 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon11 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL11,#bigRollR11{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL11{
+    left:0;
+}
+#bigRollR11{
+    right: 0;
+}
+#bigRolSlider11{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider11:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider11 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider11 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor11	END-------------------------------------*/
+/*--------------------floor12	start-------------------------------------*/
+#bigRoll12{
+    width: 439px;
+    height: 315px;
+    position: relative;
+    margin: 0 auto;
+}
+#bigRoll12:hover .bigRollLr{
+    display:block;
+}
+#bigRolWrap12{
+    width: 439px;
+    height: 315px;
+    overflow: hidden;
+}
+#bigRolCon12{
+    width: 6000px;
+    height: 439px;
+    overflow: hidden;
+}
+#bigRolCon12 a{
+    float: left;
+    width: 439px;
+    height: 315px;
+}
+#bigRolCon12 a img{
+    display:block;
+    width: 439px;
+    height: 315px;
+}
+#bigRollL12,#bigRollR12{
+    position: absolute;
+    width:28px;
+    height:62px;
+    top:40%;
+    background:#ccc;
+    font-family: simsun;
+    color:#fff;
+    font-size:30px;
+    line-height:62px;
+    text-align:center;
+    cursor: pointer;
+}
+#bigRollL12{
+    left:0;
+}
+#bigRollR12{
+    right: 0;
+}
+#bigRolSlider12{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+}
+#bigRolSlider12:after{
+    content: "";
+    display: block;
+    clear: both;
+
+}
+#bigRolSlider12 li{
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-left: 10px;
+    background: green;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+#bigRolSlider12 .bigRolSelect1{
+    background: red;
+    color: #fff;
+}
+/*--------------------floor12	END-------------------------------------*/
+/*--------------------floor	END-------------------------------------*/
+
+/*--------------------related product	END-------------------------------------*/
+#service{width:1210px;margin:0 auto;overflow:hidden;}
+#service dl{width:275px;float:left;}
+#service dl:nth-child(5){width:100px;}
+#service dt{height:35px;line-height:35px;}
+#service dd a{color:#9a9a9a;font-size:14px;height:20px;line-height:20px;}
+#service dd a:hover{color:#C81623;}
+#footer{color:#9a9a9a;font-size:14px;width:1210px;margin: 0 auto;text-align:center;}
+#footer a{color:#9a9a9a;font-size:14px;}
+#footer a:hover{color:#C81623;}
+/*--------------------footer	END-------------------------------------*/
+/*--------------------everyday  margin	start-------------------------------------*/
+#margin{
+    width:1210px;
+    overflow:hidden;
+    margin:0 auto;
+}
+#marLeft{
+    width:900px;
+    float:left;
+}
+.marginTit{
+    height:30px;
+    margin-bottom:5px;
+}
+.marLeftMain{
+    width:900px;
+    height: 281px;
+    border: solid #E5E5E5;
+    border-width: 1px 0 1px 1px;
+    overflow: hidden;
+}
+.marLeft1{
+    float:left;
+    width: 219px;
+    height: 245px;
+    padding: 18px 10px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+.marLeft1 a{
+    display:block;
+    margin-left:30px;
+    width:160px;
+    height:160px;
+}
+.marLeft1 a img{
+    display:block;
+}
+.marLeftInfor1{
+    margin-top:30px;
+    overflow:hidden;
+}
+.marLeftInfor1 a{
+    width:200px;
+    height:18px;
+    overflow:hidden;
+    margin-bottom:6px;
+    float:right;
+
+}
+.marLeftInfor1 a:hover{
+    color:#E12828;
+}
+.marLeftInfor1 p{
+    float:right;
+    width:200px;
+    height:18px;
+    overflow:hidden;
+    margin-bottom:6px;
+    color:#E12828;
+}
+.marLeft2{
+    width:199px;
+    height:104px;
+    float: left;
+    padding: 18px 10px;
+    border-right: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    overflow: hidden;
+}
+.marleftImg{
+    float:left;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+.marleftInfor2{
+    float: right;
+    width: 94px;
+    overflow: hidden;
+}
+.marleftInfor2 a{
+    display:block;
+    width: 94px;
+    height:34px;
+    margin-bottom:6px;
+    font-size: 12px;
+    overflow: hidden;
+}
+.marleftInfor2 a:hover{
+    color: #e12228;
+}
+.marleftInfor2 p{
+    color: #e12228;
+    font-size: 16px;
+    width: 94px;
+}
+#marRight{
+    width:310px;
+    float:left;
+}
+.marRightMain{
+    width:308px;
+    height:281px;
+    border:1px solid #EDEDED;
+}
+
+
+#seamlessScrolling{
+	width: 268px;
+    height: 226px;
+    margin:0 auto;
+    overflow: hidden;
+    margin-top:35px;
+}
+#seaScrMain{
+    width: 268px;
+    height: 3000px;
+    overflow: hidden;
+    list-style:none;
+}
+#seaScrMain li{
+    float: left;
+    width: 268px;
+    height: 113px;
+}
+#seaScrMain li img{
+    display:block;
+	width: 268px;
+	height: 113px;
+}
+/*--------------------everyday  margin	END-------------------------------------*/
+/*--------------------elevator	start-------------------------------------*/
+#elevator{
+    position:fixed;
+    display:none;
+    /*top:30%;*/
+    /*left:0;*/
+}
+#elevator li{
+    border-bottom:1px dotted #ccc;
+}
+#elevator a{
+    display:block;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    text-align:center;
+}
+#elevator ul li a:hover{
+    color:#fff;
+    background:#C81623;
+}
+/*--------------------elevator	END-------------------------------------*/

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+    <title>Title</title>
+    <link rel="stylesheet" href="../css/frozen.css">
+    <link rel="stylesheet" href="../css/basic.css">
+    <link rel="stylesheet" href="../css/huishenghuojiaofei.css">
+    <style>
+        .ui-header-positive{
+            background-color: #fff;
+        }
+        .ui-header-positive i{
+            color: #666;
+        }
+        .ui-header-positive a{
+            color: #999;
+            position: absolute;
+            right: 7px;
+            top: 0;
+            font-size: 13px;
+        }
+        .ui-header-positive h1{
+            color: #333;
+            font-size: 16px;
+        }
+        .ui-container{
+            background-color: #eee;
+        }
+        .demo-desc{
+            padding: 10px 10px 0 10px;
+            font-size: 13px;
+            color: #333;
+        }
+        .ui-header~.ui-container{
+            border-bottom: 60px solid transparent;
+        }
+        .ui-col{
+            text-align: center;
+        }
+        .ui-col img{
+            width: 20px;
+            height: 20px;
+            margin-top: 5px;
+        }
+        .ui-col .footerImg{
+            width: 50px;
+            height: 50px;
+            margin-top: -7px;
+        }
+        .ui-col span{
+            display: block;
+            font-size: 11px;
+            color: #666;
+        }
+        .ui-col .footerSpan{
+            color: #ff9934;
+        }
+        .ui-footer{
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header class="ui-header ui-header-positive ui-border-b">
+        <i class="ui-icon-return" onclick="history.back()"></i>
+        <h1>生活缴费</h1>
+        <a href="###">缴费记录</a>
+    </header>
+
+    <section class="ui-container">
+        <div class="gq-conNav">
+            <p>供暖缴费</p>
+        </div>
+        <div class="gq-conEr">
+            <div class="demo-desc">
+                <div class="gq-conErtop">
+                    <div>
+                        <p class="gq-conErP1">缴费单位</p>
+                        <p class="gq-conErP2">山西省大同市大同供热公司</p>
+                    </div>
+                    <div>
+                        <p class="gq-conErP1">用户编号</p>
+                        <form action="">
+                            <input type="text" pattern="[0-9]{7,12}">
+                            <button>查询</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="gq-conErbottom">
+                    <div class="gq-conErDIV">
+                        <p class="gq-conErP1">用户地址</p>
+                        <p class="gq-conErP2">恒安街北侧政务审批中心5楼</p>
+                    </div>
+                    <div>
+                        <p class="gq-conErP1">用户面积</p>
+                        <p class="gq-conErP2">100 m²</p>
+                    </div>
+                    <div>
+                        <p class="gq-conErP1">供暖费用</p>
+                        <p class="gq-conErP2"><span class="gq-conErSPAN">100</span> 元</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="demo-desc">
+            <form action="">
+                <p class="gq-conErP3">
+                    <input type="checkbox">
+                    <span>同意</span>
+                    <a href="###">《呼撒网自助缴费服务协议》</a>
+                </p>
+                <button class="gq-conErbut">确认缴费</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="ui-footer ui-footer-btn">
+        <ul class="ui-row-flex ui-whitespace">
+            <li class="ui-col ui-col">
+                <a href="../index.html">
+                <img src="../images/gq-shouye.png" alt="">
+                <span>首页</span>
+                </a>
+            </li>
+            <li class="ui-col ui-col">
+                <img src="../images/gq-shejiao.png" alt="">
+                <span>社交</span>
+            </li>
+            <li class="ui-col ui-col">
+                <img class="footerImg" src="../images/gq_sjc3.png" alt="">
+            </li>
+            <li class="ui-col ui-col">
+                <img src="../images/gq-faxian.png" alt="">
+                <span>发现</span>
+            </li>
+            <li class="ui-col ui-col">
+                <img src="../images/gq-huishenghuo2.png" alt="">
+                <span class="footerSpan">慧生活</span>
+            </li>
+            <!--<li class="ui-col ui-col">平均分</li>-->
+        </ul>
+    </footer>
+    <script src="../js/zepto.min.js"></script>
+    <script src="../js/frozen.js"></script>
+</body>
+</html>
